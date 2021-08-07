@@ -1,0 +1,28 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 1em;
+    padding: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+}
+
+.api {
+    padding: 1em;
+    background-color: #C5FF00;
+    border-radius: 10px;
+}
+
+.api-header {
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+.api-body-desc {
+    margin-bottom: 1em;
+}
+
+.api-body-auth {
+    margin-bottom: .5em;
+}
